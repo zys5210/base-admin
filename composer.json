@@ -9,5 +9,17 @@
             "email": "53804059@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Song\\BaseAdmin\\Providers\\AdminServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Song\\BaseAdmin\\": "src"
+        },
+    },
 }
