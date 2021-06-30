@@ -1,0 +1,13 @@
+{
+    "name": "zys5210/base-admin",
+    "description": "laravel base admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zys5210",
+            "email": "53804059@qq.com"
+        }
+    ],
+    "require": {}
+}
