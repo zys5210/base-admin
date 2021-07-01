@@ -8,7 +8,7 @@ class AdminServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        var_dump('adminServiceProvider');exit;
+//        var_dump('adminServiceProvider');exit;
         $this->registerRouter();
 
         if ($this->app->runningInConsole()) {
