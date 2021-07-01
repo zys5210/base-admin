@@ -3,11 +3,6 @@
     "description": "laravel base admin",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Zys5210\\BaseAdmin\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "zys5210",
@@ -15,11 +10,18 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Song\\BaseAdmin\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Song\\BaseAdmin\\Providers\\AdminServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true
 }
