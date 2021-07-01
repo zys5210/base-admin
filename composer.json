@@ -14,7 +14,9 @@
             "email": "53804059@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
