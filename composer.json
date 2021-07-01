@@ -1,6 +1,6 @@
 {
     "name": "zys5210/base-admin",
-    "description": "laravel base admin test",
+    "description": "laravel base admin",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,5 +21,7 @@
                 "Song\\BaseAdmin\\Providers\\AdminServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true
 }
