@@ -10,6 +10,11 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Song\\BaseAdmin\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -17,9 +22,6 @@
             ]
         }
     },
-    "autoload": {
-        "psr-4": {
-            "Song\\BaseAdmin\\": "src"
-        }
-    }
+    "minimum-stability":"dev",
+    "prefer-stable": true
 }
